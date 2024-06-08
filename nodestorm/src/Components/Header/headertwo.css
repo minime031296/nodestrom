@@ -1,0 +1,108 @@
+.HeaderTwoContentBox {
+    margin-top: 3%;
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box-content {
+    margin-top: 0; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-box {
+    margin-left: 15px;
+    height: 50px;
+    width: 230px;
+}
+
+#inputext {
+    margin-left: 15px;
+    height: 50px; 
+    width: 600px;
+}
+
+#sign-in {
+    margin-left: 25px;
+    height: 50px;
+    width: 100px;
+    font-family: "Brandon Text", Arial, sans-serif;
+}
+
+#stores {
+    margin-left: 1px;
+    height: 50px;
+    width: 100px;
+    font-family: "Brandon Text", Arial, sans-serif;
+}
+
+#purchases {
+    margin-left: 1px;
+    height: 50px;
+    width: 120px;
+    font-family: "Brandon Text", Arial, sans-serif;
+}
+
+#bag {
+    margin-left: 1px;
+    height: 50px;
+    width: 50px;
+    font-family: "Brandon Text", Arial, sans-serif;
+}
+
+.logo-image {
+    width: 100%; 
+    height: auto; 
+}
+
+.menu-header {
+    font-weight: "15px";
+    font-family: "Brandon Text", Arial, sans-serif;
+    color: black;
+    padding: 10px 16px;
+}
+
+.items {
+    padding-left: 20px;
+}
+
+.signinbtn {
+    width: 100%;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#sign-in .MuiButton-root {
+    color: black !important;
+}
+
+
+
+#sign-in .MuiMenuItem-root:hover,
+.signinbtn:hover,
+.items:hover {
+    text-decoration: underline;
+}
+
+
+.MuiMenu-paper:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 14px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    transform: translateY(-50%) rotate(45deg);
+    z-index: -1;
+    
+}

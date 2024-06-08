@@ -1,0 +1,41 @@
+.banners {
+    position: relative;
+    margin-top:45%
+}
+
+.banner {
+    position: relative;
+    width:100%
+    
+}
+
+.banner img {
+    width:100%;
+    height: auto
+}
+
+.banner-link {
+    position: absolute;
+    color: white;
+    text-decoration: underline white ;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#link-one {
+    top: 25px; 
+    left: 720px; 
+    font-size: 15px;
+    color: white;
+    text-decoration: underline white;
+  }
+  
+  #link-two {
+    top: 25px; 
+    left: 870px;
+    font-size: 15px;
+    color: white;
+    text-decoration: underline white; 
+  }
+
+

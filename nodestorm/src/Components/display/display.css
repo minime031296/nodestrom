@@ -1,0 +1,55 @@
+.display {
+    
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.displaybox {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%
+}
+
+#displayboxone {
+    margin-left: 25px;
+}
+
+#displayboxtwo {
+    margin-right: 25px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content {
+   
+    
+    height: 100px;
+    width: 80%;
+    margin-left:60px;
+    margin-right: 60px;
+    margin-top:20px
+}
+
+.contentinside {
+   
+   
+    height: 20px;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+#littleboxo {
+    margin-top:20px
+}
+
+#displayboxone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}

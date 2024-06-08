@@ -1,0 +1,31 @@
+.ToolBar {
+    background-color: black;
+   
+    display: flex;
+  }
+  
+  .text {
+    
+    align-items: center;
+    font-size: 16px;
+    font-family: "Brandon Text", Arial, sans-serif;
+    color: white; 
+   
+  }
+  
+  .link {
+    font-size: 16px;
+    font-family: "Brandon Text", Arial, sans-serif;
+    color: white; 
+    text-align: center;
+    
+    
+  }
+  
+  .link2{
+    font-size: 16px;
+    text-decoration: underline white;
+  }
+ 
+
+ 

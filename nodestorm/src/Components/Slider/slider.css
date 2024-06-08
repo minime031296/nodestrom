@@ -1,0 +1,52 @@
+.boxone {
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.m {
+ 
+    height: 100%;
+    width: 600px;
+}
+
+#imagebox {
+ 
+    height: 100%;
+    width: 750px;
+}
+
+#textbox {
+   
+    height: 100%;
+    width: 450px;
+    
+    background-color: #f5f5eb;
+}
+
+#textboxcontent {
+    
+    height: 100px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#textboxtwo {
+    
+    height: 100%;
+    width: 450px;
+    background-color: white;
+}
+
+#textboxcontenttwo {
+    
+    height: 100px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 20px
+}
+
